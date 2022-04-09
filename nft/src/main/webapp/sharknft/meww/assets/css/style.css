@@ -1412,7 +1412,7 @@ ol {
   height: 100%;
   display: grid;
   place-items: center;
-  background-color: #000000;
+  background-color: #cc00ff;
   z-index: 99999;
 }
 .preloader img {
@@ -1521,21 +1521,21 @@ ol {
   }
 }
 .roadmap__content h4 {
-  color: #f6ff3d;
+  color: #cc00ff;
 }
 .roadmap__content p {
-  color: #fff;
+  color: #cc00ff;
 }
 .roadmap__next, .roadmap__prev {
   width: 40px;
   height: 40px;
   line-height: 40px;
   border-radius: 100%;
-  background: rgba(255, 255, 255, 0.5);
-  color: #0d142f;
+  background: #cc00ff;
+  color: #cc00ff;
 }
 .roadmap__next:hover, .roadmap__prev:hover {
-  background: linear-gradient(0deg, #fdfccd 0%, #f6ff36 100%);
+  background: linear-gradient(0deg, #cc00ff 0%, #cc00ff 100%);
 }
 
 .team {

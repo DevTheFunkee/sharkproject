@@ -355,7 +355,7 @@ template {
  * Basic typography style for copy text
  */
 body {
-  color: #ecffe1;
+  color: rgb(0, 128, 255);
   font-size: 1rem;
   line-height: 1.4;
   font-family: "Alfa Slab One", cursive;
@@ -373,7 +373,7 @@ h4,
 h5,
 h6 {
   font-family: "Alfa Slab One", cursive;
-  color: #ecffe1;
+  color: rgb(0, 128, 255);
   line-height: 1.2;
   font-weight: 400;
 }
@@ -432,13 +432,13 @@ img {
 }
 
 a {
-  color: #ecffe1;
+  color: rgb(0, 128, 255);
   text-decoration: none;
 }
 
 @media not all and (pointer: coarse) {
   a:hover {
-    color: #abff87;
+    color: #cc00ff;
   }
 }
 
@@ -446,11 +446,11 @@ a {
 /* ripple effect */
 @keyframes ripple {
   0% {
-    box-shadow: 0 0 0 0 rgba(171, 255, 135, 0.3), 0 0 0 4px rgba(171, 255, 135, 0.3), 0 0 0 8px rgba(171, 255, 135, 0.3);
+    box-shadow: 0 0 0 0 #cc00ff, 0 0 0 4px #cc00ff, 0 0 0 8px #cc00ff;
   }
 
   100% {
-    box-shadow: 0 0 0 4px rgba(171, 255, 135, 0.3), 0 0 0 8px rgba(171, 255, 135, 0.3), 0 0 0 12px rgba(171, 255, 135, 0);
+    box-shadow: 0 0 0 4px #cc00ff, 0 0 0 8px #cc00ff, 0 0 0 12px rgba(171, 255, 135, 0);
   }
 }
 
@@ -959,7 +959,7 @@ a {
 }
 
 .color--gradient-y {
-  background: linear-gradient(0deg, #f6fff2 0%, #c3ffa9 100%);
+  background: linear-gradient(0deg, rgb(0, 128, 255) 0%, #cc00ff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1339,7 +1339,7 @@ ol {
 .nav-link--active,
 .nav-link:hover,
 .nav-link:focus {
-  color: #abff87;
+  color: #cc00ff;
 }
 
 .navbar-toggler:focus {
@@ -1433,7 +1433,7 @@ ol {
   -ms-transform: none;
   -o-transform: none;
   transform: none;
-  background-color: #87ff54;
+  background-color: #cc00ff;
 }
 
 /*=-=-=-======< Section header start here >==========-=-=-=-*/
@@ -1513,7 +1513,7 @@ ol {
 
 .banner__content h1,
 .banner__content p {
-  color: #ecffe1;
+  color: rgb(0, 128, 255);
 }
 
 .banner__content p {
@@ -1651,7 +1651,7 @@ ol {
 .contact .form input:focus-within,
 .contact .form textarea:focus-within {
   outline: none;
-  border-color: rgba(171, 255, 135, 0.8);
+  border-color: #cc00ff;
 }
 
 .contact .form textarea {
@@ -1702,7 +1702,7 @@ ol {
   line-height: 50px;
   transform-origin: right;
   transition: all 0.3s ease;
-  background: linear-gradient(90deg, #f6fff2 0%, #c3ffa9 100%);
+  background: linear-gradient(90deg, rgb(0, 128, 255) 0%, #cc00ff 100%);
   box-shadow: 0 5px 0px 0px currentColor;
 }
 
@@ -1739,7 +1739,7 @@ ol {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #abff87;
+  background: #cc00ff;
   transition: transform 0.5s;
   transform-origin: right;
   transform: scaleX(0);
@@ -1759,7 +1759,7 @@ ol {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #abff87;
+  background: #cc00ff;
   transition: transform 0.5s;
   transform-origin: left;
   transform: scaleX(0);
@@ -1779,7 +1779,7 @@ ol {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #abff87;
+  background: #cc00ff;
   transition: transform 0.5s;
   transform-origin: bottom;
   transform: scaleY(0);
@@ -1799,7 +1799,7 @@ ol {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #abff87;
+  background: #cc00ff;
   transition: transform 0.5s;
   transform-origin: top;
   transform: scaleY(0);
@@ -1815,14 +1815,14 @@ ol {
 .default-btn:hover {
   color: #0d142f;
   transform: translateY(3px);
-  background: linear-gradient(-90deg, #f6fff2 0%, #c3ffa9 100%);
-  border-color: #abff87;
+  background: linear-gradient(-90deg, rgb(0, 0, 255) 0%, #cc00ff 100%);
+  border-color: #cc00ff;
   box-shadow: none;
 }
 
 .default-btn-active {
-  background-color: #abff87;
-  border-color: #abff87;
+  background-color: #cc00ff;
+  border-color: #cc00ff;
 }
 
 .preloader {
@@ -1882,7 +1882,7 @@ ol {
 
 .coming-soon--style-2 .input-group-text {
   background-color: #fff !important;
-  color: #abff87 !important;
+  color: #cc00ff !important;
 }
 
 @media (min-width: 992px) {
@@ -1969,7 +1969,7 @@ ol {
 }
 
 .coming-soon__content .input-group-text {
-  background: #abff87;
+  background: #cc00ff;
   color: #0d142f;
   padding: 1rem 1.75rem;
   border: none;
@@ -2065,7 +2065,7 @@ ol {
 
 .roadmap__item {
   padding: 30px 20px;
-  background: linear-gradient(0deg, #f6fff2 0%, #c3ffa9 100%);
+  background: linear-gradient(0deg, rgb(0, 128, 255) 0%, #cc00ff 100%);
   border-radius: 5px;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -2076,7 +2076,7 @@ ol {
 
 @media not all and (pointer: coarse) {
   .roadmap__item:hover {
-    background: linear-gradient(180deg, #f6fff2 0%, #c3ffa9 100%);
+    background: linear-gradient(180deg, rgb(0, 128, 255) 0%, #cc00ff 100%);
     -webkit-transform: translateY(-3px);
     -moz-transform: translateY(-3px);
     -ms-transform: translateY(-3px);
@@ -2102,13 +2102,13 @@ ol {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  background: linear-gradient(0deg, #f6fff2 0%, #c3ffa9 100%);
+  background: linear-gradient(0deg, rgb(0, 128, 255) 0%, #cc00ff 100%);
   border-radius: 4px;
   text-align: center;
 }
 
 .team__item:hover {
-  background: linear-gradient(180deg, #f6fff2 0%, #c3ffa9 100%);
+  background: linear-gradient(180deg, rgb(0, 128, 255) 0%, #cc00ff 100%);
 }
 
 .team__item:hover .team__thumb img {
@@ -2153,7 +2153,7 @@ ol {
 }
 
 .accordion__item {
-  background: linear-gradient(0deg, #f6fff2 0%, #c3ffa9 100%);
+  background: linear-gradient(0deg, rgb(0, 128, 255) 0%, #cc00ff 100%);
 }
 
 .accordion__button {
@@ -2319,7 +2319,7 @@ ol {
 
 .post-item-2 .post-inner .post-thumb-container .thumb-nav:hover {
   color: #fff;
-  background-color: #abff87;
+  background-color: #cc00ff;
 }
 
 .post-item-2 .post-inner .post-thumb-container .thumb-next {
@@ -2358,7 +2358,7 @@ ol {
 }
 
 .post-item-2 .post-inner .post-thumb .play-btn svg {
-  color: #abff87;
+  color: #cc00ff;
   font-size: 1rem;
   z-index: 1;
 }
@@ -2412,7 +2412,7 @@ ol {
 }
 
 .post-item-2 .post-inner .post-content .post-date li span a:hover {
-  color: #abff87;
+  color: #cc00ff;
 }
 
 .post-item-2 .post-inner .post-content h2 {
@@ -2435,7 +2435,7 @@ ol {
 }
 
 .post-item-2 .post-inner .post-content a h3:hover {
-  color: #abff87;
+  color: #cc00ff;
 }
 
 .post-item-2 .post-inner .post-content .default-button {
@@ -2456,7 +2456,7 @@ ol {
 }
 
 .post-item-2 .post-inner .post-content .more-com .text-btn:hover span {
-  color: #abff87;
+  color: #cc00ff;
 }
 
 .post-item-2 .post-inner .post-content .more-com .text-btn:hover i {
@@ -2479,7 +2479,7 @@ ol {
 
 .post-item-2 .post-inner .post-content .more-com .comment-visi span {
   padding-right: 15px;
-  color: #abff87;
+  color: #cc00ff;
 }
 
 .post-item-2 .post-inner .post-content .more-com .comment-visi span:last-child {
@@ -2516,7 +2516,7 @@ ol {
   left: 0;
   top: 0;
   opacity: 0.5;
-  color: #abff87;
+  color: #cc00ff;
   content: "" !important;
   font-size: 36px;
   font-family: IcoFont !important;
@@ -2528,7 +2528,7 @@ ol {
   right: 0;
   bottom: 0;
   opacity: 0.5;
-  color: #abff87;
+  color: #cc00ff;
   content: "" !important;
   font-size: 36px;
   font-family: IcoFont !important;
@@ -2543,7 +2543,7 @@ ol {
 }
 
 .post-item-2 .post-inner .post-content .qute-content blockquote a:hover {
-  color: #abff87;
+  color: #cc00ff;
 }
 
 .post-item-2 .post-inner .post-content .meta-post p span {
@@ -2581,7 +2581,7 @@ ol {
 }
 
 .post-item-2 .post-inner .post-content .meta-post p span a:hover {
-  color: #abff87;
+  color: #cc00ff;
 }
 
 .article-pagination {
@@ -2593,7 +2593,7 @@ ol {
 .article-pagination .prev-article a,
 .article-pagination .next-article a {
   font-size: 1.125rem;
-  color: #abff87;
+  color: #cc00ff;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -2609,7 +2609,7 @@ ol {
 
 .article-pagination .prev-article a:hover,
 .article-pagination .next-article a:hover {
-  color: #abff87;
+  color: #cc00ff;
 }
 
 .article-pagination .prev-article p,
@@ -2730,7 +2730,7 @@ ol {
 }
 
 .comments .comment-list .comment .com-content .com-title .com-title-meta h6 a:hover {
-  color: #abff87;
+  color: #cc00ff;
 }
 
 .comments .comment-list .comment .com-content .com-title .com-title-meta span {
@@ -2754,7 +2754,7 @@ ol {
 }
 
 .comments .comment-list .comment .com-content .com-title .reply .comment-reply-link:hover {
-  color: #abff87;
+  color: #cc00ff;
   border-radius: 5px;
 }
 
@@ -2828,7 +2828,7 @@ ol {
 }
 
 .single-quote {
-  background: linear-gradient(0deg, #f6fff2 0%, #c3ffa9 100%);
+  background: linear-gradient(0deg, rgb(0, 128, 255) 0%, #cc00ff 100%);
   color: #0d142f;
 }
 
@@ -2887,7 +2887,7 @@ ol {
 
 .tags li a:hover,
 .tags li a.active {
-  background: linear-gradient(0deg, #f6fff2 0%, #c3ffa9 100%);
+  background: linear-gradient(0deg, rgb(0, 128, 255) 0%, #cc00ff 100%);
   color: #0d142f;
 }
 
@@ -2914,7 +2914,7 @@ ol {
 
 @media not all and (pointer: coarse) {
   .social__link:hover {
-    background-color: #abff87;
+    background-color: #cc00ff;
     -webkit-transform: translateY(-3px);
     -moz-transform: translateY(-3px);
     -ms-transform: translateY(-3px);
@@ -2928,7 +2928,7 @@ ol {
 }
 
 .mint__name {
-  color: #abff87;
+  color: #cc00ff;
 }
 
 @media (min-width: 992px) {
