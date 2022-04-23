@@ -1703,7 +1703,7 @@ ol {
   transform-origin: right;
   transition: all 0.3s ease;
   background: linear-gradient(90deg, rgb(64, 156, 254) 0%, #cc00ff 100%);
-  
+  box-shadow: 0 5px 0px 0px rgb(251, 88, 18);
 }
 
 @media (min-width: 768px) {
