@@ -555,3 +555,53 @@ a[class*='lightcase-icon-'].lightcase-icon-pause, a[class*='lightcase-icon-'].li
     opacity: 1 !important;
   }
 }
+.presale {
+  height: 45px;
+  padding: 10px 0;
+  background-color: var(--color-header);
+  background-image: url("../images/presale-bg.png");
+  background-repeat: repeat-x;
+  background-size: auto 45px;
+  vertical-align: center;
+  overflow: hidden;
+  text-align: center;
+  color: var(--color-neon);
+  text-transform: uppercase;
+  font-size: var(--font-body-1);
+  line-height: 25px;
+}
+.presale .ticker__element {
+  white-space: nowrap !important;
+}
+.presale-wrap {
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  -webkit-animation: marquee 300s linear infinite;
+  -moz-animation: marquee 300s linear infinite;
+  animation: marquee 300s linear infinite;
+  z-index: 9999;
+}
+
+.presale-text {
+  display: inline;
+  text-transform: uppercase;
+  font-size: var(--font-body-1);
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+@keyframes marquee {
+  0% {
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+  100% {
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+}
