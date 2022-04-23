@@ -21,8 +21,8 @@ Tags:blackfriday, blackfridayoffer, product landing page, product offer, friday 
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 
 @font-face {
-  font-family: 'The name of the Font Family Here';
-  src: URL('font.ttf') format('truetype');
+  font-family: 'lightcase';
+  src: URL('lightcase.ttf') format('truetype');
 }
 
 html {
@@ -32,7 +32,7 @@ html {
   /* 2 */
 }
 
-/* Sections
+/* Sections	
    ========================================================================== */
 /**
  * Remove the margin in all browsers.
@@ -363,7 +363,7 @@ body {
   color: rgb(64, 156, 254);
   font-size: 1rem;
   line-height: 1.4;
-  font-family: "Alfa Slab One", cursive;
+  font-family: "lightcase";
   background-color: #23162c;
 }
 
@@ -377,7 +377,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Alfa Slab One", cursive;
+  font-family: "lightcase";
   color: rgb(64, 156, 254);
   line-height: 1.2;
   font-weight: 400;
@@ -1330,7 +1330,7 @@ ol {
 
 .nav-link {
   color: #fff;
-  font-family: "Alfa Slab One", cursive;
+  font-family: "lightcase";
 }
 
 @media (min-width: 1200px) {
@@ -1701,7 +1701,7 @@ ol {
   font-size: 1.125rem;
   border-radius: 4px;
   text-decoration: none;
-  font-family: "Alfa Slab One", cursive;
+  font-family: "lightcase";
   color: rgb(255, 255, 255);
   padding: 0 1.7rem;
   line-height: 50px;
@@ -2165,7 +2165,7 @@ ol {
   font-size: calc(1.275rem + 0.2571428571vw);
   background-color: transparent;
   color: #0d142f;
-  font-family: "Alfa Slab One", cursive;
+  font-family: "lightcase";
   font-weight: 400;
   padding: 1.5rem 1rem;
   border: none;
