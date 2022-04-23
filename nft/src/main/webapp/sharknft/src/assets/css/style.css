@@ -961,7 +961,7 @@ a {
 }
 
 .color--theme-color {
-  color: #abff87 !important;
+  color: rgb(251, 88, 18) !important;
 }
 
 .color--gradient-y {
@@ -1345,7 +1345,7 @@ ol {
 .nav-link--active,
 .nav-link:hover,
 .nav-link:focus {
-  color: #cc00ff;
+  color: rgb(251, 88, 18);
 }
 
 .navbar-toggler:focus {
@@ -1698,10 +1698,12 @@ ol {
   border-top: 2px solid rgba(255, 255, 255, 0.05);
 }
 
-.presale-text{
+.presale{
+	
+ 
   font-family: "lightcase";
-  background-color:rgb(251, 88, 18);
-  box-shadow: 20px 20px 20px 20px rgb(251, 88, 18);
+  background:linear-gradient(90deg, rgb(251, 88, 18) 0%, #cc00ff 100%);
+  
 }
 
 .default-btn {
@@ -2088,7 +2090,7 @@ ol {
 
 @media not all and (pointer: coarse) {
   .roadmap__item:hover {
-    background: linear-gradient(180deg, rgb(64, 156, 254) 0%, #cc00ff 100%);
+    background: linear-gradient(180deg, rgb(251, 88, 18) 0%, #cc00ff 100%);
     -webkit-transform: translateY(-3px);
     -moz-transform: translateY(-3px);
     -ms-transform: translateY(-3px);
@@ -2120,7 +2122,7 @@ ol {
 }
 
 .team__item:hover {
-  background: linear-gradient(180deg, rgb(64, 156, 254) 0%, #cc00ff 100%);
+  background: linear-gradient(180deg, rgb(251, 88, 18) 0%, #cc00ff 100%);
 }
 
 .team__item:hover .team__thumb img {
@@ -2899,7 +2901,7 @@ ol {
 
 .tags li a:hover,
 .tags li a.active {
-  background: linear-gradient(0deg, rgb(64, 156, 254) 0%, #cc00ff 100%);
+  background: linear-gradient(0deg, rgb(251, 88, 18) 0%, #cc00ff 100%);
   color: #0d142f;
 }
 
