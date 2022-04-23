@@ -20,6 +20,11 @@ Tags:blackfriday, blackfridayoffer, product landing page, product offer, friday 
  */
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 
+@font-face {
+  font-family: 'The name of the Font Family Here';
+  src: URL('font.ttf') format('truetype');
+}
+
 html {
   line-height: 1.15;
   /* 1 */
