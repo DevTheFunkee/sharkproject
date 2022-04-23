@@ -20,6 +20,11 @@ Tags:blackfriday, blackfridayoffer, product landing page, product offer, friday 
  */
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 
+@font-face {
+  font-family: 'The name of the Font Family Here';
+  src: URL('font.ttf') format('truetype');
+}
+
 html {
   line-height: 1.15;
   /* 1 */
@@ -355,7 +360,7 @@ template {
  * Basic typography style for copy text
  */
 body {
-  color: rgb(0, 128, 255);
+  color: rgb(64, 156, 254);
   font-size: 1rem;
   line-height: 1.4;
   font-family: "Alfa Slab One", cursive;
@@ -373,7 +378,7 @@ h4,
 h5,
 h6 {
   font-family: "Alfa Slab One", cursive;
-  color: rgb(0, 128, 255);
+  color: rgb(64, 156, 254);
   line-height: 1.2;
   font-weight: 400;
 }
@@ -432,7 +437,7 @@ img {
 }
 
 a {
-  color: rgb(0, 128, 255);
+  color: rgb(64, 156, 254);
   text-decoration: none;
 }
 
@@ -450,7 +455,7 @@ a {
   }
 
   100% {
-    box-shadow: 0 0 0 4px #cc00ff, 0 0 0 8px #cc00ff, 0 0 0 12px rgba(171, 255, 135, 0);
+    box-shadow: 0 0 0 4px #cc00ff, 0 0 0 8px #cc00ff, 0 0 0 12px rgb(64, 156, 254);
   }
 }
 
@@ -959,7 +964,7 @@ a {
 }
 
 .color--gradient-y {
-  background: linear-gradient(0deg, rgb(0, 128, 255) 0%, #cc00ff 100%);
+  background: linear-gradient(0deg, rgb(64, 156, 254) 0%, #cc00ff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1513,7 +1518,7 @@ ol {
 
 .banner__content h1,
 .banner__content p {
-  color: rgb(0, 128, 255);
+  color: rgb(64, 156, 254);
 }
 
 .banner__content p {
@@ -1697,13 +1702,13 @@ ol {
   border-radius: 4px;
   text-decoration: none;
   font-family: "Alfa Slab One", cursive;
-  color: #0d142f;
+  color: rgb(255, 255, 255);
   padding: 0 1.7rem;
   line-height: 50px;
   transform-origin: right;
   transition: all 0.3s ease;
-  background: linear-gradient(90deg, rgb(0, 128, 255) 0%, #cc00ff 100%);
-  box-shadow: 0 5px 0px 0px currentColor;
+  background: linear-gradient(90deg, rgb(64, 156, 254) 0%, #cc00ff 100%);
+  box-shadow: 0 5px 0px 0px rgb(251, 88, 18);
 }
 
 @media (min-width: 768px) {
@@ -1815,7 +1820,7 @@ ol {
 .default-btn:hover {
   color: #0d142f;
   transform: translateY(3px);
-  background: linear-gradient(-90deg, rgb(0, 0, 255) 0%, #cc00ff 100%);
+  background: linear-gradient(-90deg, rgb(251, 88, 18) 0%, #cc00ff 100%);
   border-color: #cc00ff;
   box-shadow: none;
 }
@@ -2065,7 +2070,7 @@ ol {
 
 .roadmap__item {
   padding: 30px 20px;
-  background: linear-gradient(0deg, rgb(0, 128, 255) 0%, #cc00ff 100%);
+  background: linear-gradient(0deg, rgb(64, 156, 254) 0%, #cc00ff 100%);
   border-radius: 5px;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -2076,7 +2081,7 @@ ol {
 
 @media not all and (pointer: coarse) {
   .roadmap__item:hover {
-    background: linear-gradient(180deg, rgb(0, 128, 255) 0%, #cc00ff 100%);
+    background: linear-gradient(180deg, rgb(64, 156, 254) 0%, #cc00ff 100%);
     -webkit-transform: translateY(-3px);
     -moz-transform: translateY(-3px);
     -ms-transform: translateY(-3px);
@@ -2102,13 +2107,13 @@ ol {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  background: linear-gradient(0deg, rgb(0, 128, 255) 0%, #cc00ff 100%);
+  background: linear-gradient(0deg, rgb(64, 156, 254) 0%, #cc00ff 100%);
   border-radius: 4px;
   text-align: center;
 }
 
 .team__item:hover {
-  background: linear-gradient(180deg, rgb(0, 128, 255) 0%, #cc00ff 100%);
+  background: linear-gradient(180deg, rgb(64, 156, 254) 0%, #cc00ff 100%);
 }
 
 .team__item:hover .team__thumb img {
@@ -2153,7 +2158,7 @@ ol {
 }
 
 .accordion__item {
-  background: linear-gradient(0deg, rgb(0, 128, 255) 0%, #cc00ff 100%);
+  background: linear-gradient(0deg, rgb(64, 156, 254) 0%, #cc00ff 100%);
 }
 
 .accordion__button {
@@ -2828,7 +2833,7 @@ ol {
 }
 
 .single-quote {
-  background: linear-gradient(0deg, rgb(0, 128, 255) 0%, #cc00ff 100%);
+  background: linear-gradient(0deg, rgb(64, 156, 254) 0%, #cc00ff 100%);
   color: #0d142f;
 }
 
@@ -2887,7 +2892,7 @@ ol {
 
 .tags li a:hover,
 .tags li a.active {
-  background: linear-gradient(0deg, rgb(0, 128, 255) 0%, #cc00ff 100%);
+  background: linear-gradient(0deg, rgb(64, 156, 254) 0%, #cc00ff 100%);
   color: #0d142f;
 }
 
