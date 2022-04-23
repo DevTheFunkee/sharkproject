@@ -22,7 +22,7 @@ Tags:blackfriday, blackfridayoffer, product landing page, product offer, friday 
 
 @font-face {
   font-family: 'lightcase';
-  src: URL('lightcase.ttf') format('truetype');
+  src: URL('../fonts/lightcase.ttf') format('truetype');
 }
 
 html {
