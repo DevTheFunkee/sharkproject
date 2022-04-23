@@ -369,6 +369,7 @@ body {
 
 p {
   font-size: 1.125rem;
+  font-family: "lightcase";
 }
 
 h1,
@@ -1697,8 +1698,14 @@ ol {
   border-top: 2px solid rgba(255, 255, 255, 0.05);
 }
 
+.presale-text{
+  font-family: "lightcase";
+  background-color:rgb(251, 88, 18);
+  box-shadow: 20px 20px 20px 20px rgb(251, 88, 18);
+}
+
 .default-btn {
-  font-size: 1.125rem;
+  font-size: 1.325rem;
   border-radius: 4px;
   text-decoration: none;
   font-family: "lightcase";
