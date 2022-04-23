@@ -450,7 +450,7 @@ a {
   }
 
   100% {
-    box-shadow: 0 0 0 4px #cc00ff, 0 0 0 8px #cc00ff, 0 0 0 12px rgba(171, 255, 135, 0);
+    box-shadow: 0 0 0 4px #cc00ff, 0 0 0 8px #cc00ff, 0 0 0 12px rgb(64, 156, 254);
   }
 }
 
@@ -1697,13 +1697,13 @@ ol {
   border-radius: 4px;
   text-decoration: none;
   font-family: "Alfa Slab One", cursive;
-  color: #0d142f;
+  color: rgb(255, 255, 255);
   padding: 0 1.7rem;
   line-height: 50px;
   transform-origin: right;
   transition: all 0.3s ease;
   background: linear-gradient(90deg, rgb(64, 156, 254) 0%, #cc00ff 100%);
-  box-shadow: 0 5px 0px 0px currentColor;
+  
 }
 
 @media (min-width: 768px) {
@@ -1815,7 +1815,7 @@ ol {
 .default-btn:hover {
   color: #0d142f;
   transform: translateY(3px);
-  background: linear-gradient(-90deg, rgb(0, 0, 255) 0%, #cc00ff 100%);
+  background: linear-gradient(-90deg, rgb(251, 88, 18) 0%, #cc00ff 100%);
   border-color: #cc00ff;
   box-shadow: none;
 }
